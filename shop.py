@@ -36,7 +36,7 @@ class Order:
         self.customer.add_points(amount)
         return amount
 
-customer1 = Customer("정지원", "vip")
+customer1 = Customer("정시원", "vip")
 customer2 = Customer("정찬영", "basic")
 
 order1 = Order(1, customer1)
